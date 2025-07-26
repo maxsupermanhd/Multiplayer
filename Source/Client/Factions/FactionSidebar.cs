@@ -322,13 +322,6 @@ public static class FactionSidebar
 
         Layouter.EndHorizontal();
 
-        if (ModsConfig.AnomalyActive)
-        {
-            chosenScenario = ScenarioDefOf.Crashlanded;
-            TooltipHandler.TipRegion(Layouter.LastRect(),"Choosing a scenario is not available for Anomaly");
-            return;
-        }
-
         if (Mouse.IsOver(Layouter.LastRect()))
             Widgets.DrawAltRect(Layouter.LastRect());
 
