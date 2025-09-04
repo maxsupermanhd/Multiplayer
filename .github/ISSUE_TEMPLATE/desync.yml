@@ -33,7 +33,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: save-client
+    id: save-host
     attributes:
       label: Host replay
       description: |
@@ -98,7 +98,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: clinet-operating-system
+    id: client-operating-system
     attributes:
       label: Client Operating System
       options:
