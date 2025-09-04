@@ -76,6 +76,7 @@ body:
       options:
         - Steam
         - GOG
+        - DRM-free
         - Filthy pirate
     validations:
       required: true
@@ -105,5 +106,13 @@ body:
         - Windows
         - Linux
         - macOS
+    validations:
+      required: true
+  - type: textarea
+    id: remarks
+    attributes:
+      label: Additional information
+      description: |
+        If you have any other relevant information, feel free to include it here
     validations:
       required: true
