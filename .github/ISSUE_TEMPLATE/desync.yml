@@ -92,9 +92,9 @@ body:
     attributes:
       label: Host Operating System
       options:
-        - macOS
         - Windows
         - Linux
+        - macOS
     validations:
       required: true
   - type: dropdown
@@ -102,8 +102,8 @@ body:
     attributes:
       label: Client Operating System
       options:
-        - macOS
         - Windows
         - Linux
+        - macOS
     validations:
       required: true
