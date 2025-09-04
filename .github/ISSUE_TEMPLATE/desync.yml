@@ -115,4 +115,4 @@ body:
       description: |
         If you have any other relevant information, feel free to include it here
     validations:
-      required: true
+      required: false
